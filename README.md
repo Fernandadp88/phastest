@@ -1,9 +1,8 @@
-# phastest
+# PHASTEST
 PHASTEST (PHAge Search Tool with Enhanced Sequence Translation) is a useful web  useful web server created to facilitate the quick identification, annotation, and visualization of prophage sequences in bacterial genomes and plasmids. PHASTEST also enables fast annotation and interactive visualization of all other genes (including protein-coding regions, tRNA, tmRNA, and rRNA sequences) within bacterial genomes.
 
-# phastest
+# PHASTEST
 Instalação do Phastest
-
 
 ### Download phastest-docker
 ```bash
@@ -34,3 +33,7 @@ mv DB phastest/phastest-app-docker/
 cd phastest/phastest_inputs
 docker compose run phastest -i fasta -s seq_test.fna
 ```
+
+### Citation
+David S Wishart, Scott Han, Sukanta Saha, Eponine Oler, Harrison Peters, Jason R Grant, Paul Stothard, Vasuk Gautam, PHASTEST: faster than PHASTER, better than PHAST, Nucleic Acids Research, Volume 51, Issue W1, 5 July 2023, Pages W443–W450, https://doi.org/10.1093/nar/gkad382
+
