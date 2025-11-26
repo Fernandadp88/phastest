@@ -1,4 +1,7 @@
 # phastest
+PHASTEST (PHAge Search Tool with Enhanced Sequence Translation) is a useful web  useful web server created to facilitate the quick identification, annotation, and visualization of prophage sequences in bacterial genomes and plasmids. PHASTEST also enables fast annotation and interactive visualization of all other genes (including protein-coding regions, tRNA, tmRNA, and rRNA sequences) within bacterial genomes.
+
+# phastest
 Instalação do Phastest
 
 
