@@ -48,6 +48,11 @@ docker compose run phastest -i fasta -s {input_file.fna}
 docker compose run phastest -i contig -s {input_file.fna}
 ```
 
+### For more details 
+```bash
+docker compose run phastest help
+```
+
 ### Citation
 David S Wishart, Scott Han, Sukanta Saha, Eponine Oler, Harrison Peters, Jason R Grant, Paul Stothard, Vasuk Gautam, PHASTEST: faster than PHASTER, better than PHAST, Nucleic Acids Research, Volume 51, Issue W1, 5 July 2023, Pages W443–W450, https://doi.org/10.1093/nar/gkad382
 
