@@ -27,24 +27,21 @@ unzip docker-database.zip
 mv DB phastest/phastest-app-docker/
 ```
 
-### Run (teste)
-```bash
-cd phastest/phastest_inputs
-docker compose run phastest -i fasta -s seq_test.fna
-```
-
 ### Run container if input file is genbank accession
 ```bash
+cd phastest/phastest_inputs 
 docker compose run phastest -i genbank -a {genbank_accession}
 ```
 
 ### Run container if input file is FASTA sequence
 ```bash
+cd phastest/phastest_inputs
 docker compose run phastest -i fasta -s {input_file.fna}
 ```
 
 ### Run container if input file is metagenomic contig
 ```bash
+cd phastest/phastest_inputs
 docker compose run phastest -i contig -s {input_file.fna}
 ```
 
