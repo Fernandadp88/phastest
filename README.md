@@ -33,6 +33,21 @@ cd phastest/phastest_inputs
 docker compose run phastest -i fasta -s seq_test.fna
 ```
 
+### Run container if input file is genbank accession
+```bash
+docker compose run phastest -i genbank -a {genbank_accession}" 
+```
+
+### Run container if input file is FASTA sequence
+```bash
+docker compose run phastest -i fasta -s {input_file.fna}
+```
+
+### Run container if input file is metagenomic contig
+```bash
+docker compose run phastest -i contig -s {input_file.fna}
+```
+
 ### Citation
 David S Wishart, Scott Han, Sukanta Saha, Eponine Oler, Harrison Peters, Jason R Grant, Paul Stothard, Vasuk Gautam, PHASTEST: faster than PHASTER, better than PHAST, Nucleic Acids Research, Volume 51, Issue W1, 5 July 2023, Pages W443–W450, https://doi.org/10.1093/nar/gkad382
 
