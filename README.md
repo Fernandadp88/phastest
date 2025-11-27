@@ -35,7 +35,7 @@ docker compose run phastest -i fasta -s seq_test.fna
 
 ### Run container if input file is genbank accession
 ```bash
-docker compose run phastest -i genbank -a {genbank_accession}" 
+docker compose run phastest -i genbank -a {genbank_accession}
 ```
 
 ### Run container if input file is FASTA sequence
